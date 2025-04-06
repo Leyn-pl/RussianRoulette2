@@ -1,2 +1,30 @@
-# RussianRoulette2
-Inpired by Buckshot Roulette. A console game made with python.
+# Russian Roulette 2
+Игру создал LEYN
+
+# [>>> СКАЧАТЬ <<<](https://github.com/Leyn-pl/RussianRoulette2/archive/refs/heads/main.zip)
+###### ^^^ кто впервые видит гитхаб
+
+## Что нужно для работы:
+- [Python 3.12+](https://www.python.org/downloads/)
+  - Выбираете версию, листаете вниз до Files, а дальше разберётесь
+- (библиотека) [rusrul_lib](https://pypi.org/project/rusrul-lib/)
+  - `pip install rusrul-lib` < в командной строке
+- (библиотека) [colored](https://pypi.org/project/colored/)
+  - `pip install colored` < в командной строке
+
+## Как запустить
+1. Скачайте и **распакуйте архив**
+2. Запустите `main.py` или `run.bat`
+
+## Возможные проблемы и способы решения
+- Не получается скачать библиотеки:
+  - Проверьте интернет
+  - Заного откройте установщик, выберите "Modify" и включите "**pip**"
+  - Скачайте и запустите [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+- Не работает `run.bat`
+  - Запустите `main.py` напрямую
+  - Заного откройте установщик, выберите "Modify" и включите "**Add Python to PATH**" / "**Add Python to environmental variables**"
+- Не видно часть игры, элементы игры обрезаны, остаётся видна часть прошлого кадра, много пространства справа
+  - Откройте настройки консоли и поставьте размер 120x30
+    - 11 винда: **ctrl+,** или стрелка вниз рядом с плюсом, "Размер для запуска", сделайте 120х30
+    - 10 винда: ПКМ по верхней панели, "Свойства", "Расположение", пункт "Размер окна", сделайте 120х30
